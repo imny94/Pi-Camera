@@ -49,6 +49,7 @@ waitForUserInput(){
 		waitForUserInput
 	else
 		echo "Continuing execution ..."
+	fi
 }
 
 getConfirmation(){
@@ -57,6 +58,7 @@ getConfirmation(){
 		waitForUserInput
 	else
 		echo "Continuing execution ..."
+	fi
 }
 
 getConfirmation
