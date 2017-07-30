@@ -45,7 +45,7 @@ echo "Press 'y' when complete!\n"
 waitForUserInput(){
 	echo "Not proceeding, continuing to wait, enter 'y' when ready! \n"
 	read -n 1 -p "Ready? " completedInput
-	if[$completedInput != "y"] 
+	if[$completedInput != "y"] ;
 	then 
 		waitForUserInput
 	else
@@ -55,7 +55,7 @@ waitForUserInput(){
 
 getConfirmation(){
 	read -n 1 -p "Complete :" completedInput
-	if["$completedInput" != "y"] 
+	if["$completedInput" != "y"] ;
 	then
 		waitForUserInput
 	else
